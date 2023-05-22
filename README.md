@@ -2,7 +2,7 @@
 
 The following learnign paths & modules are proposed:
 
-## Fundementals
+## Fundamentals
 
 - Introduction to Terraform
 - Create your first resources and Data sources (including Providers)
