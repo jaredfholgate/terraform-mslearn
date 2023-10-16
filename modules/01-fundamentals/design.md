@@ -1,0 +1,24 @@
+# Fundamentals - Module 01
+
+- Introduction to Terraform
+- Create your first resources and Data sources (including Providers)
+  - Authenticate provider
+  - Create `azurerm_storage_account`
+- Terraform Commands - CLI
+  - init
+  - validate
+  - fmt
+  - plan
+  - apply
+- Changing and Destroying Resources
+  - Create `azurerm_service_plan`
+    - takes `azurerm_storage_account` name as argument
+  - Create `azurerm_linux_web_app`
+    - takes `azurerm_storage_account` name and `azurerm_service_plan` ID as arguments
+- Terraform State (Understanding Desired and Current state)
+  - Examine state file
+  - `terraform show`
+  - `terraform state list`
+  - `terraform plan -replace`
+  - `terraform apply -replace`
+  - Delete resource and show a plan/apply will recreate it?
